@@ -1,0 +1,22 @@
+@import '../../styles/globals.scss';
+
+.left-side__nav{
+ display: flex;
+ flex-direction: column;
+ align-items: stretch;
+ justify-content: space-between;
+ position: sticky;
+ top: 0;
+ border-right: $dark1 1px solid;
+ padding: 0px 10px;
+ height: 100vh;
+ max-width: 300px;
+}
+
+.left-side__user {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 20px;
+
+}

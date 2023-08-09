@@ -1,0 +1,82 @@
+// Variables
+$background: #100E0F;
+$background2: #151314;
+
+$dark1: #302B2E;
+$dark2: #50484B;
+$dark3: #706667;
+$primary: #908383;
+$light1: #A59A9C;
+$light2: #BAB1B5;
+$light3: #CFC8CD;
+$light4: #E4E0E3;
+
+$green: #27936C;
+$red: #C65959;
+
+
+.body{
+display: flex;
+justify-content: space-between;
+margin: auto;
+max-width: 1000px;
+border: 1px solid $dark1;
+}
+
+dialog{
+ display: flex;
+ flex-direction: column;
+ position: fixed;
+ top: 0;
+ z-index: 10;
+ height: 100vh;
+ width: 100vw;
+ background-color: $background;
+ border: none;
+ align-items: center;
+ justify-content: center;
+
+}
+
+a {
+ color: $light4;
+ text-decoration: none;
+}
+
+button {
+ all: unset;
+ cursor: pointer;
+ border-radius: 2px;
+}
+
+.btn-primary {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: $dark1;
+ color: $light4;
+ background: $dark2;
+ padding: 15px 20px;
+}
+
+.btn-outline {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid $primary;
+ color: $light4;
+ padding: 14px 20px;
+ background-color: $background2;
+}
+
+.btn-link{
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ justify-content: flex-start;
+ padding: 14px 20px;
+
+ &:hover{
+  background-color: $background2;
+ }
+}
